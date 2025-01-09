@@ -90,11 +90,11 @@ export default function Landing() {
       </div>
 
       {/* Popular Destinations */}
-      <div className="absolute bottom-0 left-0 right-0 bg-transparent bg-opacity-80 px-4 sm:px-6 lg:px-40 h-[40vh] overflow-y-auto">
-        <h2 className="text-3xl font-bold mb-4 flex justify-center text-white ">
+      <div className="absolute bottom-0 left-0 right-0 bg-transparent bg-opacity-80 px-4 sm:px-6 lg:px-40 h-[39vh] overflow-y-auto">
+        <h2 className="text-3xl font-bold  flex justify-center text-white ">
           Popular Destinations
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-transparent bg-opacity-80 rounded-lg p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-transparent bg-opacity-80 rounded-lg p-6">
 
           {/* Small Card 1 */}
           <div className="max-w-sm bg-transparent rounded-lg shadow dark:bg-white dark:border-gray-700">
