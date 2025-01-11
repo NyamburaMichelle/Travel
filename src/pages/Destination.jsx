@@ -1,18 +1,16 @@
 import { useState } from "react";
 
-export default function Services() {
+export default function Destination() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    "../../public/lady.jpg",
-    "../../public/outdoor1.jpg",
+    "../../public/lions.jpg",
+    "../../public/antelope1.jpg",
+    "../../public/birdie.jpg",
     "../../public/elephant1.jpg",
-    "../../public/ghazal2.jpg",
-    "../../public/waterfall.jpg",
-    "../../public/hicker.jpg",
     "../../public/elephants2.jpg",
-    "../../public/zebras2.jpg",
-    "../../public/tourists.jpg",
+    "../../public/ghazal.jpg",
+    "../../public/ghazal2.jpg",
   ];
 
   const handleNext = () => {
@@ -42,7 +40,7 @@ export default function Services() {
         {/* Carousel Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <div className="text-center">
-            <p className="text-xl md:text-4xl mt-4 font-bold">OUR SERVICES</p>
+            <p className="text-xl md:text-4xl mt-4 ">KENYA</p>
           </div>
         </div>
 
@@ -96,9 +94,7 @@ export default function Services() {
       {/* Service Description */}
       <div className="text-xl text-gray-800 flex justify-center bg-orange-200 mt-10 mb-10 w-full p-10">
         <h1>
-          With a team of our professional tour guides, drivers, and cook, we are
-          dedicated to providing you the best service and experience that
-          matches the money-value.
+        From the savannas of the Maasai Mara to the sparkling waters of the Indian Ocean, Kenya offers an unforgettable journey of discovery.
         </h1>
       </div>
 

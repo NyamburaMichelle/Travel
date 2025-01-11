@@ -1,16 +1,13 @@
-import React from 'react'
+
 import Landing from '../components/Landing'
-import Destination from '../components/Destination'
-import About from './About'
-import Blog from './Blog'
+
 
 export default function Home() {
   return (
     <>
+    <div className="bg-orange-200">
       <Landing />
-      <Destination />    
-      <About />
-      <Blog />
+      </div>
     </>
   )
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 
 export default function Layout() {
@@ -8,7 +7,7 @@ export default function Layout() {
         <nav className="bg-white dark:bg-transparent fixed w-full z-20 top-0 start-0 border-b border-transparent ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://i.pinimg.com/736x/6c/77/ae/6c77ae991f9f919ef4740677588e4ed6.jpg" className="h-8" alt="Logo"/>
+            <img src="../public/LOGO.jpeg" className="h-8" alt="Logo"/>
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Africkson</span>
         </a>
 
@@ -78,19 +77,10 @@ export default function Layout() {
                 <Link to="/" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</Link>
             </li>
             <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Destinations <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
+            <li>
+                <Link to="/destinations" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Destinations</Link>
+            </li> 
             
-           <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <Link to="/destinations" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Kenya</Link>
-                  </li>
-                 
-                </ul>
-               
-            </div>
     </li>
              <li>
                 <Link to="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</Link>
@@ -112,19 +102,19 @@ export default function Layout() {
           
        
 
-<footer className="bg-white dark:bg-gray-900 mt-20">
+<footer className="bg-white dark:bg-[#D6A800] mt-1">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
-                  <img src="https://i.pinimg.com/736x/6c/77/ae/6c77ae991f9f919ef4740677588e4ed6.jpg" className="h-8 me-3" alt="Africkson Logo" />
+                  <img src="../public/LOGO.jpeg" className="h-8 me-3" alt="Africkson Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Africkson</span>
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">About</h2>
+                  <ul className="text-gray-500 dark:text-black font-medium">
                       <li className="mb-2">
                           <a href="#" className="hover:underline">Contact Us</a>
                       </li>
@@ -137,24 +127,45 @@ export default function Layout() {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact us</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Contact us</h2>
+                  <ul className="text-gray-500 dark:text-black font-medium">
                       <li className="mb-4">
-                          <p className="hover:underline ">Manila, Philippines</p>
+                          <p className="hover:underline ">Nairobi, Kenya</p>
                       </li>
                       <li className="mb-4">
-                          <p className="hover:underline">travel@traveltours.com</p>
+                          <p className="hover:underline">africksonsafaris@outlook.com</p>
                       </li>
                       <li className="mb-4">
-                          <p className="hover:underline">+63 912 345 6729</p>
+                          <p className="hover:underline">+254 711 477 574</p>
+                      </li>
+                      <li className="mb-4">
+                           {/* Newsletter */}
+            <div className="mt-8">
+                <h2 className="mb-6 text-sm font-semibold text-black">Subscribe to our Newsletter</h2>
+                <form className="flex items-center">
+                    <input
+                        type="email"
+                        className="p-2 w-full text-gray-900 bg-[#D6A800] rounded-lg shadow-md focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+                        placeholder="Enter your email"
+                    />
+                </form>
+            </div>
+                      </li>
+                      <li>
+                      <button
+                        type="submit"
+                        className="ml-2 px-4 py-2 text-white bg-[#12486B] rounded-lg shadow-md hover:bg-blue-700"
+                    >
+                        Subscribe
+                    </button>
                       </li>
                   </ul>
               </div>             
           </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Africkson™</a>. All Rights Reserved.
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 " />
+      <div className="sm:flex sm:items-center sm:justify-between bg-">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-black ">© 2023 <a href="https://flowbite.com/" className="hover:underline">Africkson™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
