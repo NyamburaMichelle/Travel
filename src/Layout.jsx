@@ -21,8 +21,8 @@ export default function Layout() {
   <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
+      width="20"
+      height="23"
       fill="white"
       className="bi bi-instagram"
       viewBox="0 0 16 16"
@@ -35,8 +35,8 @@ export default function Layout() {
   <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
+      width="20"
+      height="23"
       fill="white"
       className="bi bi-twitter-x"
       viewBox="0 0 16 16"
@@ -49,8 +49,8 @@ export default function Layout() {
   <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
+      width="20"
+      height="28"
       fill="white"
       className="bi bi-facebook"
       viewBox="0 0 16 16"

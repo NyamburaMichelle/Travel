@@ -46,7 +46,7 @@ export default function Landing() {
             <h1 className="text-5xl md:text-6xl font-bold">Africkson Safaris</h1>
             {/* Subtitle */}
             <p className="text-xl md:text-2xl mt-4">A Home Away From Home</p>
-            {/* Adding more space below the subtitle */}
+            
             <div className="mt-8">
               <a
                 href="/booknow"
