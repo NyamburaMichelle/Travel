@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Services() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -105,206 +106,189 @@ export default function Services() {
       {/* Cards Section */}
       <div className="flex justify-center items-center w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:px-8 lg:px-20">
-
+          
           {/* Card1*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/services/service1">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="https://images.pexels.com/photos/18511973/pexels-photo-18511973/free-photo-of-stone-walls-of-fortification-among-arid-rocky-hills.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                  CAR HIRE
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Explore Africa at your own pace. Whether you need a rugged 4x4 for safari adventures, a comfortable sedan for city tours, or a spacious van for group travel we’ve got you covered.
+                  Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card2*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="https://images.pexels.com/photos/3998185/pexels-photo-3998185.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                  Custom Tours
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                design your dream adventure and Explore Africa your way, with every detail planned just for you to ensure your journey is as extraordinary as you envision.
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card3*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="https://images.pexels.com/photos/20828361/pexels-photo-20828361/free-photo-of-alinja-tower-in-nakhchivan-in-azerbaijan.jpeg?auto=compress&cs=tinysrgb&w=300"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                Group Safaris
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Enjoy the camaraderie of exploring africa’s iconic landscapes, abundant wildlife, and hidden gems with like-minded travelers on our expertly curated group safaris.
+
+                 Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card4*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                Cultural & Heritage Tours
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                From visiting ancient archaeological sites and iconic landmarks to engaging with local communities, these tours offer an authentic journey into the heart of africa’s heritage
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card5*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                Eco & Sustainable Tours
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Engage in Eco-friendly Tour, learn about local conservation efforts, and support communities that rely on sustainable resources.
+
+                 Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card6*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
+              <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+                Adventure Sports & Expeditions
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Explore Africa’s rugged terrain and push your limits from scaling mountains, white-water rafting on wild rivers, to skydiving and dune bashing in vast deserts, we offer experiences for adrenaline seekers of all kinds.
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card7*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
+              <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+                Special Interest Tours
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                we craft personalized itineraries to match your passions. We focus on unique themes whether you are a photography enthusiast, a birdwatcher, a culinary explorer, or a history buff, our experts guides are always on your side.
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card8*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
+              <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+                Wellness & Retreats
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Reconnect with your mind, body, and spirit. Our packages offer a perfect blend of relaxation and rejuvenation, featuring yoga sessions, meditation, spa treatment, and holistic therapies.
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
           {/* Card9*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
                 src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
+              <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+                Luxury Travel
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Experience Africa in unparalleled style and comfort with our bespoke packages. Stay in opulent lodges, exclusive resorts, or private villas, gourmet dining, scenic helicopter rides, seclude beach escapes, and tailor-made itineraries.
+                Explore 
+                </p>
+              </div>
+            </Link>
           </div>
 
-        
         </div>
       </div>
     </div>

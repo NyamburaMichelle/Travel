@@ -21,49 +21,46 @@ export default function Blog() {
       {/* Cards Section */}
       <div className="flex justify-center items-center w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:px-8 lg:px-20">
-          {/* Card 1 */}
+          {/* Card1*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="https://images.pexels.com/photos/18511973/pexels-photo-18511973/free-photo-of-stone-walls-of-fortification-among-arid-rocky-hills.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                  Nairobi City Day Trip
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                From bustling markets to wildlife adventures, Explore the only city with a national park, where urban energy meets natural beauty.
+                Explore 
+                </p>
+              </div>
+            
           </div>
 
-          {/* Card 2 */}
+          {/* Card2*/}
           <div className="bg-white border border-gray-200 rounded-lg shadow h-[547px]">
-            <a href="#">
+            
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="https://images.pexels.com/photos/3998185/pexels-photo-3998185.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Zebra"
               />
-            </a>
-            <div className="p-4">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+              <div className="p-4">
+                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                  Maasai Mara National Reserve
                 </h5>
-              </a>
-              <p className="text-sm text-gray-700">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+                <p className="text-sm text-gray-700">
+                Witness the awe-inspiring Great migration, a breathtaking spectacle of nature’s drama amidst stunning landscapes and iconic wildlife
+                Explore -
+                </p>
+              </div>
+            
           </div>
+
 
           {/* Top Posts Section */}
           <div className="bg-orange-200 shadow p-5 rounded">
@@ -91,12 +88,11 @@ export default function Blog() {
               <div className="p-4">
                 <a href="#">
                   <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                    Noteworthy technology acquisitions 2021
+                    Jerusalem
                   </h5>
                 </a>
                 <p className="text-sm text-gray-700">
-                  Here are the biggest enterprise technology acquisitions of 2021
-                  so far, in reverse chronological order.
+                  
                 </p>
               </div>
             </div>

@@ -6,6 +6,9 @@ import Layout from "./Layout";
 import About from "./pages/About";
 import Destination from "./pages/Destination";
 import Booknow from "./pages/Booknow";
+import Nairobi from "./components/Nairobi";
+import Services1 from "./components/Services1";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
             <Route path="/booknow" element={<Booknow />} />
             <Route path="/destinations" element={<Destination />} />
             <Route path="/about" element={<About />} />
+            <Route path="/destinations/nairobi" element={<Nairobi />} />
+            <Route path="/services/service1" element={<Services1 />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
       </Routes>
       </BrowserRouter>

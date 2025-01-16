@@ -1,6 +1,17 @@
 import { Outlet, Link } from 'react-router-dom'
+import { useState } from 'react';
+
+
+
+
 
 export default function Layout() {
+    const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>        
 
@@ -18,7 +29,7 @@ export default function Layout() {
             <div>
             <div className="flex gap-x-4 items-center">
   {/* Instagram */}
-  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/afric.ksonsafaris?igsh=NGx1aTlrcGs0cWR0" target="_blank" rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20"
@@ -58,6 +69,19 @@ export default function Layout() {
       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
     </svg>
   </a>
+
+  {/*tiktok */}
+  <a href="https://www.tiktok.com/@africkson.safaris?_t=ZM-8t6yHfcVQwA&_r=1" target="_blank" rel="noopener noreferrer">
+  <svg 
+     xmlns="http://www.w3.org/2000/svg" 
+     width="20" 
+     height="28" 
+     fill="white" 
+     className="bi bi-tiktok" 
+     viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg>
+</a>
 </div>
 
 
@@ -72,24 +96,111 @@ export default function Layout() {
         </div>
 
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-white rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-white rounded-lg md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
             <li>
-                <Link to="/" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 text-blue-500" aria-current="page">Home</Link>
+                <Link to="/" className="block text-white py-2 px-3 text-white  rounded md:bg-transparent md:text-blue-700 md:p-0 text-blue-500" aria-current="page">Home</Link>
             </li>
-            <li>
-            <li>
-                <Link to="/destinations" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 text-white md:dark:hover:bg-transparent dark:border-gray-700">Destinations</Link>
-            </li> 
             
-    </li>
+
+
+
+
+            <div className="relative inline-block text-left">
+      {/* Dropdown button */}
+      <Link to="/destinations"
+  onClick={toggleDropdown}
+  className="flex items-center text-white py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+>
+  Destinations
+  <svg
+    className="w-5 h-5 ml-2"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path
+      fillRule="evenodd"
+      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+      clipRule="evenodd"
+    />
+  </svg>
+  </Link>
+
+
+      {/* Dropdown menu */}
+      {isOpen && (
+        <div className="absolute right-0 z-10 w-56 mt-2 origin-top-right bg-gray-300 border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="py-1">
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black "
+            >
+              Kenya
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              Uganda
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              Namibia
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              South Africa
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              Morocco
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              Zanzibar
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+            >
+              Madagascar
+            </a>
+          </div>
+          
+        </div>
+      )}
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
              <li>
-                <Link to="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</Link>
+                <Link to="/blog" className="block text-white py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</Link>
             </li>
             <li>
-                <Link to="/services" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
+                <Link to="/services" className="block text-white py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
             </li>
             <li>
-                <Link to="/contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
+                <Link to="/contact" className="block text-white py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
             </li>
             </ul>
         </div>
@@ -106,7 +217,7 @@ export default function Layout() {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+              <a href="" className="flex items-center">
                   <img src="../public/LOGO.jpeg" className="h-8 me-3" alt="Africkson Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Africkson</span>
               </a>
@@ -132,7 +243,7 @@ export default function Layout() {
                       <li className="mb-4">
                           <p className="hover:underline ">Nairobi, Kenya</p>
                       </li>
-                      <li className="mb-4">
+                      <li className="mb-4  md:flex md:justify-between md:items-center">
                           <p className="hover:underline">africksonsafaris@outlook.com</p>
                       </li>
                       <li className="mb-4">

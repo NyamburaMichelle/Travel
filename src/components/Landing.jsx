@@ -50,7 +50,7 @@ export default function Landing() {
             <div className="mt-8">
               <a
                 href="/booknow"
-                className="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600 transition duration-300"
+                className="bg-orange-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600 transition duration-300"
               >
                 Book Now
               </a>
@@ -123,11 +123,11 @@ export default function Landing() {
     <div className="p-4">
       <a href="#">
         <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-          Noteworthy technology acquisitions 2021
+          Nairobi City Day Trip, Kenya
         </h5>
       </a>
       <p className="text-sm text-gray-700">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+      From bustling markets to wildlife adventures, Explore the only city with a national park, where urban energy meets natural beauty.
       </p>
     </div>
   </div>
@@ -144,11 +144,11 @@ export default function Landing() {
     <div className="p-4">
       <a href="#">
         <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-          Noteworthy technology acquisitions 2021
+          Bwindi Impenetrable Forest, Uganda
         </h5>
       </a>
       <p className="text-sm text-gray-700">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+      Venture into Uganda’s crown jewel and the Ultimate destination for unforgettable gorilla trekking adventures.
       </p>
     </div>
   </div>
@@ -165,11 +165,11 @@ export default function Landing() {
     <div className="p-4">
       <a href="#">
         <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-          Noteworthy technology acquisitions 2021
+          Ondull Ridge, Namibia
         </h5>
       </a>
       <p className="text-sm text-gray-700">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+      Escape into africa’s raw beauty where luxury meets untamed wilderness.
       </p>
     </div>
   </div>
@@ -221,7 +221,7 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Noteworthy technology acquisitions 2021
+              Jerusalem
             </h5>
           </a>
           <p className="mb-2 text-sm text-gray-700">
@@ -242,7 +242,7 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Noteworthy technology acquisitions 2021
+              Jerusalem
             </h5>
           </a>
           <p className="mb-2 text-sm text-gray-700">
@@ -263,7 +263,7 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Noteworthy technology acquisitions 2021
+              Jerusalem
             </h5>
           </a>
           <p className="mb-2 text-sm text-gray-700">
