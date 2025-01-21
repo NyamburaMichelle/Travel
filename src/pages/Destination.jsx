@@ -108,7 +108,7 @@ export default function Destination() {
             <Link to="/destinations/nairobi">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/giraffe2.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -128,7 +128,7 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/lion2.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -168,16 +168,16 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="../../public/ghazal2.jpg"
+                src="../../public/elephants2.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
                 <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
-                  Tsavo National Parks (East and West)
+                  Amboseli National Park
                 </h5>
                 <p className="text-sm text-gray-700">
-                From the striking Yatta plateau to the crystal clear waters of mzima springs, explore the largest park in Kenya where red dusted elephants roam.
-                Explore -
+                Stand in awe of vast herds of elephants roaming freely beneath the towering Mount kilimanjaro. a perfect safari dreamscape.
+Explore 
                 </p>
               </div>
             </Link>
@@ -188,16 +188,16 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="../../public/tourists.jpg"
+                src="../../public/ghazal2.jpg"
                 alt="tourists"
               />
               <div className="p-4">
                 <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
-                  Mount Kenya 
+                Tsavo National Parks (East and West)
                 </h5>
                 <p className="text-sm text-gray-700">
-                Ascend Africa’s second-highest peak with stunning alpine landscapes, glacial lakes, and unique flora like giant lobelias.
-                Explore 
+                From the striking Yatta plateau to the crystal clear waters of mzima springs, explore the largest park in Kenya where red dusted elephants roam.
+Explore ->
                 </p>
               </div>
             </Link>
@@ -208,16 +208,16 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/tourists.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
                 <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
-                  Diani Beach
+                Mount Kenya
                 </h5>
                 <p className="text-sm text-gray-700">
-                Sink your toes into powdery white sands. From vibrant coral reefs for snorkeling to thrilling water sports, diani beach is perfect for relaxation or adventure.
-                Explore 
+                Ascend Africa’s second-highest peak with stunning alpine landscapes, glacial lakes, and unique flora like giant lobelias.
+Explore 
                 </p>
               </div>
             </Link>
@@ -228,15 +228,15 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/diani.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
-                <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
-                   Aberdare National Park
+              <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900">
+                  Diani Beach
                 </h5>
                 <p className="text-sm text-gray-700">
-                A haven for nature lovers, thrilling game drives, breathtaking hiking trails, and relaxing at tree-top lodges overlooking waterholes frequented by wildlife.
+                Sink your toes into powdery white sands. From vibrant coral reefs for snorkeling to thrilling water sports, diani beach is perfect for relaxation or adventure.
                 Explore 
                 </p>
               </div>
@@ -248,16 +248,16 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="../../public/outdoor1.jpg"
+                src="../../public/animal2.jpg"
                 alt="Naivasha"
               />
               <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Lake Naivasha
+                Aberdare National Park
                 </h5>
                 <p className="text-sm text-gray-700">
-                Lake Naivasha offers a serene escape for nature walks, peaceful boat rides among hippos and vibrant birdlife, enjoy stunning views of the Great rift valley.
-                Explore 
+                A haven for nature lovers, thrilling game drives, breathtaking hiking trails, and relaxing at tree-top lodges overlooking waterholes frequented by wildlife.
+Explore 
                 </p>
               </div>
             </Link>
@@ -268,16 +268,16 @@ export default function Destination() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="./../public/outdoor1.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
                 <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-                  Noteworthy technology acquisitions 2021
+                Lake Naivasha
                 </h5>
                 <p className="text-sm text-gray-700">
-                  Here are the biggest enterprise technology acquisitions of 2021
-                  so far, in reverse chronological order.
+                Lake Naivasha offers a serene escape for nature walks, peaceful boat rides among hippos and vibrant birdlife, enjoy stunning views of the Great rift valley.
+                Explore 
                 </p>
               </div>
             </Link>

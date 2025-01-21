@@ -133,43 +133,43 @@ export default function Layout() {
         <div className="absolute right-0 z-10 w-56 mt-2 origin-top-right bg-gray-300 border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <a
-              href="#"
+              href="/destinations/kenya"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black "
             >
               Kenya
             </a>
             <a
-              href="#"
+              href="/destinations/uganda"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               Uganda
             </a>
             <a
-              href="#"
+              href="/destinations/namibia"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               Namibia
             </a>
             <a
-              href="#"
+              href="/destinations/southafrica"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               South Africa
             </a>
             <a
-              href="#"
+              href="/destinations/morocco"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               Morocco
             </a>
             <a
-              href="#"
+              href="/destinations/zanzibar"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               Zanzibar
             </a>
             <a
-              href="#"
+              href="/destinations/madagascar"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               Madagascar

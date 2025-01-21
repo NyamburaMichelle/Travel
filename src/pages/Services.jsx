@@ -112,7 +112,7 @@ export default function Services() {
             <Link to="/services/service1">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://images.pexels.com/photos/18511973/pexels-photo-18511973/free-photo-of-stone-walls-of-fortification-among-arid-rocky-hills.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="../../public/cars.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -132,7 +132,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://images.pexels.com/photos/3998185/pexels-photo-3998185.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="../../public/park1.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -152,7 +152,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://images.pexels.com/photos/20828361/pexels-photo-20828361/free-photo-of-alinja-tower-in-nakhchivan-in-azerbaijan.jpeg?auto=compress&cs=tinysrgb&w=300"
+                src="../../public/tanzania1.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -173,7 +173,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/maasai.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -193,7 +193,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/eco.png"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -214,7 +214,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/boatracing.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -234,7 +234,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/birdie.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -254,7 +254,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/massage.jpg"
                 alt="Zebra"
               />
               <div className="p-4">
@@ -274,7 +274,7 @@ export default function Services() {
             <Link to="/service-details/2">
               <img
                 className="rounded-t-lg w-full h-[400px] object-cover"
-                src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+                src="../../public/luxury.jpg"
                 alt="Zebra"
               />
               <div className="p-4">

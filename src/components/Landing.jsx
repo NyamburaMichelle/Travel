@@ -221,12 +221,9 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Jerusalem
+            Top 10 Must-See Destinations in Africa for Wildlife Enthusiasts
             </h5>
           </a>
-          <p className="mb-2 text-sm text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-          </p>
         </div>
       </div>
 
@@ -242,12 +239,9 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Jerusalem
+            A Beginner's Guide to Choosing the Perfect Safari Experience
             </h5>
           </a>
-          <p className="mb-2 text-sm text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-          </p>
         </div>
       </div>
 
@@ -263,12 +257,9 @@ export default function Landing() {
         <div className="p-3">
           <a href="#">
             <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900">
-              Jerusalem
+            The Big Five and Beyond: Fascinating Wildlife You’ll Encounter on Safari
             </h5>
           </a>
-          <p className="mb-2 text-sm text-gray-700">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-          </p>
         </div>
       </div>
     </div>
