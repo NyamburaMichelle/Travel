@@ -214,7 +214,7 @@ export default function Landing() {
         <a href="#">
           <img
             className="rounded-t-lg w-full h-[400px] object-cover"
-            src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+            src="../../public/migrations.jpg"
             alt="Noteworthy technology acquisitions 2021"
           />
         </a>
@@ -232,7 +232,7 @@ export default function Landing() {
         <a href="#">
           <img
             className="rounded-t-lg w-full h-[400px] object-cover"
-            src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+            src="../../public/leopard.jpg"
             alt="Noteworthy technology acquisitions 2021"
           />
         </a>
@@ -250,7 +250,7 @@ export default function Landing() {
         <a href="#">
           <img
             className="rounded-t-lg w-full h-[400px] object-cover"
-            src="https://i.pinimg.com/736x/a6/f8/a1/a6f8a14ab11c37683502d4364264bbc7.jpg"
+            src="../../public/big5.png"
             alt="Noteworthy technology acquisitions 2021"
           />
         </a>
